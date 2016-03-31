@@ -16,9 +16,13 @@ vim .vimrc  (I will add final .vimrc file here)
 #add to .vimrc file (CUSTOMIZATIONS)
 
 
-#The following is recommended for YouCompleteMe
+#The following is recommended for YouCompleteMe#
+
+
 sudo apt-get install build-essential cmake
+
 sudo apt-get install python-dev python3-dev
+
 cd ~/.vim/bundle/YouCompleteMe
 
 DID NOT WORK FOR ME  ./install.py --clang-completer --omnisharp-completer --gocode-completer --tern-completer --racer-completer
